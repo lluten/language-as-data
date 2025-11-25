@@ -6,7 +6,9 @@ set -e
 
 # Define data directory
 DATA_DIR="data"
+PREPROCESSED_DIR="data/preprocessed"
 mkdir -p "$DATA_DIR"
+mkdir -p "$PREPROCESSED_DIR"
 cd "$DATA_DIR"
 
 # Define corpora: (name, url)
